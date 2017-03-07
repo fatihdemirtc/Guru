@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  guru:
+    image: guru
+    build:
+      context: ./Guru
+      dockerfile: Dockerfile
